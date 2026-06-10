@@ -23,8 +23,8 @@ INIT_ALTITUDE = 122.2     # m, starting height (apogee we begin the landing from
 INIT_VELOCITY = 0.0       # m/s, starting vertical velocity (0 = at apogee)
 DT = 0.1                  # s, physics + decision timestep
 MIN_THROTTLE = 0.6        # minimum throttle the engine can produce (action space lower bound)
-INIT_THROTTLE = 0.674     # forced throttle at dt=0 (ASTOS: 8768 N / 13000 N)
-MAX_THROTTLE_RATE = 0.0000000001  # max throttle change per step (0.05 = 5% per dt)
+INIT_THROTTLE = 0.6745    # forced throttle at dt=0 (ASTOS: 8768 N / 13000 N)
+MAX_THROTTLE_RATE = 0.01  # max throttle change per step (0.05 = 5% per dt)
 G0 = 9.80665              # m/s^2, standard gravity, only for Isp -> exhaust velocity
 
 # ============================== EPISODE ==============================
