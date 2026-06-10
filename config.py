@@ -24,7 +24,7 @@ INIT_VELOCITY = 0.0       # m/s, starting vertical velocity (0 = at apogee)
 DT = 0.1                  # s, physics + decision timestep
 MIN_THROTTLE = 0.6        # minimum throttle the engine can produce (action space lower bound)
 INIT_THROTTLE = 0.6745    # forced throttle at dt=0 (ASTOS: 8768 N / 13000 N)
-MAX_THROTTLE_RATE = 0.01  # max throttle change per step (0.05 = 5% per dt)
+MAX_THROTTLE_RATE = 0.1  # max throttle change per step (0.05 = 5% per dt)
 G0 = 9.80665              # m/s^2, standard gravity, only for Isp -> exhaust velocity
 
 # ============================== EPISODE ==============================
